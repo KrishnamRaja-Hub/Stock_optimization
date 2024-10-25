@@ -21,11 +21,11 @@ import plotly.graph_objects as go
 #from scratch_5 import calculate_kpis
 
 # NewsAPI client
-newsapi = NewsApiClient(api_key='d3db56f86ee74ded8e84f9cae1b26c00')
+newsapi = NewsApiClient(api_key='Your_api_key')
 
 # MongoDB connection details
-username = 'krishnam_raja_'
-password = 'krishnam@13'
+username = 'your_username'
+password = 'your_password'
 username_encoded = urllib.parse.quote_plus(username)
 password_encoded = urllib.parse.quote_plus(password)
 
