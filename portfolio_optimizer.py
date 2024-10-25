@@ -24,8 +24,8 @@ import plotly.graph_objects as go
 newsapi = NewsApiClient(api_key='Your_api_key')
 
 # MongoDB connection details
-username = 'your_username'
-password = 'your_password'
+username = 'username'
+password = 'password'
 username_encoded = urllib.parse.quote_plus(username)
 password_encoded = urllib.parse.quote_plus(password)
 
